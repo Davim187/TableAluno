@@ -20,7 +20,7 @@ function Etd(numeroAleatorio) {
   if (excluir) {
     excluir.parentNode.removeChild(excluir);
   }
-
+  lAluno.pop();
 }
 
 
