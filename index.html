@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Tabela alunos</h1>
+    </header>
+    
+    <article>  
+        <form id="frmAluno">
+        <p>Adicionar aluno</p>
+        <input type="text" placeholder="Adicionar aluno" id="nome">
+        <p>Adicionar parcial</p>
+        <input type="number" min="0" max="10" step=".5" placeholder="Parcial" id="parcial">
+        <p>Adicionar Bimestral</p>
+        <input type="number" min="0" max="10" step=".5" placeholder="Bimestral" id="bimestral">
+        <br><br>
+        <button id="button" type="submit">Enviar
+        </button>
+    </form></article>
+    <article>
+        <div id="table">
+            <table id="demo">
+                <thead>
+                    <tr>
+                        <th>Alunos</th>
+                        <th>Parcial</th>
+                        <th>Bimestral</th>
+                        <th>Media</th>
+                        <th>Resultado</th>
+
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </article>
+ <footer> <p>	&copy; Copyright - TabelaAluno | Todos os direitos reservados | Desenvolvido por Davi Morais</p> </footer>
+</body>
+
+</html>
