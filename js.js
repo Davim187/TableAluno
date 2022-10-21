@@ -55,7 +55,11 @@ function criarTable() {
                 </tr>
                `
     ).join('')
-
+    
+      window.document.getElementById('nome').value = null
+      window.document.getElementById('parcial').value = null
+      window.document.getElementById('bimestral').value = null
+    
   } else {
     alert('Verifique se todos os campos estao preenchido ou se os numeros estao menores que 10')
   }
